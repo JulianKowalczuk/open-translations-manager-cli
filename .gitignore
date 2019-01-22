@@ -36,6 +36,3 @@ Thumbs.db
 
 # Ignore built ts files
 dist/**/*
-
-# SQLite db file
-mydb.sqlite
