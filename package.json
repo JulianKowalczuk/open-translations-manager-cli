@@ -35,6 +35,7 @@
     "knex": "^0.16.3",
     "lodash": "^4.17.5",
     "lusca": "^1.5.2",
+    "open-translations-manager-dashboard": "^0.1.1",
     "sqlite3": "^4.0.4",
     "winston": "^2.4.0"
   },

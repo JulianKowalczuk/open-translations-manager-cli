@@ -9,6 +9,7 @@ import { phrasesRouter } from './modules/phrases';
 import { phrasesCategoriesRouter } from './modules/phrasesCategories';
 import './utils/logger';
 
+const dashboardPath = __dirname + '/../node_modules/open-translations-manager-dashboard/build';
 const app = express();
 
 app.set('port', process.env.PORT || 4000);
@@ -31,6 +32,7 @@ app.use(
   })
 );
 
+app.use('/', express.static(dashboardPath));
 app.use('/phrases', phrasesRouter);
 app.use('/phrasesCategories', phrasesCategoriesRouter);
 
