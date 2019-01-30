@@ -1,12 +1,11 @@
 {
-  "name": "express-typescript-starter",
+  "name": "open-translations-manager-cli",
   "version": "0.1.0",
-  "description": "A starting point for Node.js express apps with TypeScript",
+  "description": "CLI for Open Translations Manager",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/TypeScript-Node-Starter"
+    "url": "https://github.com/JulianKowalczuk/open-translations-manager-cli.git"
   },
-  "author": "Bowden Kelly",
   "license": "MIT",
   "scripts": {
     "start": "npm run serve",
