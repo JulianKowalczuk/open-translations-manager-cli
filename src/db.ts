@@ -2,7 +2,7 @@ import knex from 'knex';
 
 const db = knex({
   client: 'sqlite3',
-  connection: { filename: './mydb.sqlite' },
+  connection: { filename: String(process.env.SQLITEDBPATH) },
   useNullAsDefault: true
 });
 
