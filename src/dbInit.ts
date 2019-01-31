@@ -5,6 +5,6 @@ import { createPhrasesCategoriesTableIfNotExists } from './modules/phrasesCatego
 Promise.all([createPhrasesTableIfNotExists(), createPhrasesCategoriesTableIfNotExists()]).then(
   () => {
     console.log('Database intialized');
-    process.exit();
+    process.exit(1);
   }
 );
